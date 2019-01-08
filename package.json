@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/dancon/classnames.git"
   },
-  "keywords": [],
+  "keywords": [
+    "classnames",
+    "CSS Modules"
+  ],
   "author": "sizhao",
   "license": "MIT",
   "bugs": {
