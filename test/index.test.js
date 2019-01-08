@@ -54,3 +54,15 @@ describe(`classnames(cssModules, props, globalstring)`, () => {
     }, 'global1')).toBe('class1-xx global1')
   })
 })
+
+describe(`classnames(cssModules, props, globalstring, globalObject)`, () => {
+  test(`return 'class1-xx global1 global2'`, () => {
+    expect(classnames(cssModules, {
+      class1: true,
+      class2: false
+    }, 'global1', {
+      global2: true,
+      global3: false
+    })).toBe('class1-xx global1 global2')
+  })
+})

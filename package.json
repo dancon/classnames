@@ -6,7 +6,8 @@
   "module": "src/index.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "eslint --fix src/**"
   },
   "repository": {
     "type": "git",
