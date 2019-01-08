@@ -21,12 +21,12 @@ A simple JavaScript utility for conditionally joining classNames together for CS
 
 ## API
 
-### classnames(styles: ?CSSModules, classMaps: {[string]: condition | boolean}, extraClassName?: string)
+### classnames(cssModules: ?CSSModules, props: ?{[string]: condition | boolean}, ...extra?: any[])
 
-- styles: CSSModules, optional
+- cssModules: CSSModules, optional
 
 This is an object of CSS Modules
 
-- classMap: {[string]: condition | boolean}, required
+- props: {[string]: condition | boolean}, required
 
-- extraClassName: string, optional
+- extra: string, optional
